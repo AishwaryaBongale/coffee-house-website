@@ -67,12 +67,14 @@ const WhereToBuy = () => {
               placeholder="Name"
               className="input-style w-full lg:w-[150px]"
               name="name"
+              required
             />
             <input
               type="email"
               placeholder="Email"
               className="input-style w-full"
               name="email"
+              required
             />
           </motion.div>
           <motion.div
